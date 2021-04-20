@@ -33,10 +33,27 @@ h1 {
 
 /* Main */
 
-.container {
-    height: 800px;
+.container-top {
     width: 70%;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 15px 15px 5px 5px;
     margin:auto ;
+    padding: 15px 50px;
+}
+
+.blue-button, .white-button {
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.blue-button {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+.white-button {
+    background-color: white;
+    color: dimgray;
+    border: solid 1px dimgray;
 }
