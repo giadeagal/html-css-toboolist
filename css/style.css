@@ -6,3 +6,27 @@
 .test {
     background-color: coral;
 }
+
+/* Header */
+
+header {
+    line-height: 80px;
+}
+
+
+#logo  {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main */
+
+main {
+    background-color: #f6f8f9;
+}
