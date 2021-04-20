@@ -9,6 +9,7 @@
 
 body {
     background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -27,7 +28,6 @@ h1 {
     display: inline-block;
     font-size: 50px;
     vertical-align: middle;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Main - sezione top*/
@@ -67,10 +67,17 @@ h1 {
     padding: 15px 50px;
 }
 
+ul {
+    margin: 25px 0px 25px -60px;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+
 li.special {
     font-size: 20px;
-    list-style-type: none;
-    margin-left: -40px;
 }
 
 li.special::before {
@@ -78,7 +85,105 @@ li.special::before {
 }
 
 li.standard {
-    font-size: 18px;
-    list-style-type: none;
-    margin-left: -40px;
+    font-size: 14px;
+}
+
+li.tick::before {
+    content: '\2713';
+    margin-right:5px;
+    height: 12px;
+    width: 12px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid #66c1aa;
+    color: #66c1aa;
+}
+
+li.cross::before {
+    content: '\2717';
+    margin-right: 5px;
+    height: 12px;
+    width: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #ec6963;
+    color: #ec6963;
+}
+
+li.editorial::after {
+    content: "Editorial";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #45abea;
+    vertical-align: middle;
+}
+
+li.q1-goals::after {
+    content: "Q1 Goals";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #9c72e4;
+    vertical-align: middle;
+}
+
+li.recruiting::after {
+    content: "Recruiting";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #64c0a9;
+    vertical-align: middle;
+}
+
+li.mobile::after {
+    content: "Mobile";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #f29e33;
+    vertical-align: middle;
+}
+
+li.website::after {
+    content: "Website";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #d863a1;
+    vertical-align: middle;
+}
+
+li.sales::after {
+    content: "Sales";
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #b0c926;
+    vertical-align: middle;
 }
