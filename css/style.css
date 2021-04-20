@@ -68,5 +68,17 @@ h1 {
 }
 
 li.special {
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+li.special::before {
+    content: "\25BC";
+}
+
+li.standard {
     font-size: 18px;
+    list-style-type: none;
+    margin-left: -40px;
 }
