@@ -16,7 +16,6 @@ body {
 header {
     line-height: 80px;
     background-color: white;
-    margin-bottom: 50px;
 }
 
 
@@ -36,8 +35,8 @@ h1 {
 .container-top {
     width: 70%;
     background-color: white;
-    border-radius: 15px 15px 5px 5px;
-    margin:auto ;
+    border-radius: 15px 15px 2px 2px;
+    margin: 50px auto 2px;
     padding: 15px 50px;
 }
 
@@ -56,4 +55,12 @@ h1 {
     background-color: white;
     color: dimgray;
     border: solid 1px dimgray;
+}
+
+.container-bottom {
+    width: 70%;
+    background-color: white;
+    border-radius: 2px 2px 15px 15px;
+    margin: auto ;
+    padding: 15px 50px;
 }
